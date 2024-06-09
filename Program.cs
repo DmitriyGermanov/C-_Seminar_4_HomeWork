@@ -16,7 +16,7 @@ internal class Program
         int num = 11;
         var result = findNumm.FindNumbers(array, num);
         if (result != null)
-            Console.WriteLine($"Позиция элемента в массиве: {result.ToString()}");
+            Console.WriteLine($"Позиция элементов в массиве: {result.ToString()}");
         else
             Console.WriteLine("Комбинация чисел не найдена");
     }
